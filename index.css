@@ -1,0 +1,155 @@
+html{margin: 0px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 0px;
+    position: relative;
+    }
+    nav ul a{
+        text-decoration: none;
+        font-family: 'Cookie', cursive;
+        font-size: 2rem;
+        color:black;
+    }
+    .hire{
+        border: 2px solid black;
+        padding: 10px;
+        border-radius: 50px;
+    }
+    .hire:hover{
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+    }
+    .name ul{
+        display: grid;
+        height: 300px;
+        
+        
+        }
+    .service{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 5px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }    
+    .name ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        font-family: 'Lobster', cursive;
+        font-size: 2rem;
+        opacity: 0.8;
+        
+        }
+        #name{
+            font-family: 'Kaushan Script', cursive;
+            font-size: 5rem;
+        }
+        #social img{
+            height: 50px;
+            width: 50px;
+        }
+        #logo img{
+         height: 350px;
+        opacity: 100%;
+            
+           
+
+        }
+        /* menu */
+
+
+        .menu{display: grid;
+            grid-template-columns: repeat(3, auto);
+            align-content: space-around;
+            justify-content: center;
+            grid-gap: 2rem;
+        }
+        .menu ul{
+            font-family: 'Lobster', cursive;
+            font-size: 2rem;
+        }
+        .boxes{
+            display: grid;
+            height: 200px;
+            width: 200px;
+            max-width: 100%;
+            align-items: center;
+            justify-items: center;
+        }
+        .boxes img{
+            height: 150px;
+            width: 150px;
+            max-width: 100%;
+        }
+        .contact{
+            background-color: black;
+            height: 200px;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+        }
+        .contact ul a{
+            color: white;
+            font-family: 'Kaushan Script', cursive;
+            text-decoration: none ;
+            font-size: 3rem;
+            padding-left: 0px;
+            
+        }
+        @media only screen and (max-width: 1104px) {
+            #name{
+                font-size: 3rem;
+            }
+
+        }
+        @media only screen and (max-width: 786px) {
+           
+            .menu{
+                grid-template-columns: repeat(auto-fill, minmax(186px, 1fr));
+            }
+           .hire{
+               display: none;
+           }
+           #name{
+            font-size: 1.5rem;
+        }
+        .name ul {
+            font-size: 1rem;
+            opacity: 0.8;
+            
+            }
+
+        }
+        @media only screen and (max-width: 364px) {
+            nav ul a{
+                font-size: 1.7rem;
+                
+            }
+            .contact ul a{
+                 font-size: 1.5rem;
+                
+                
+            }
+            #social img{
+                height: 30px;
+                width: 30px;
+            }
+        }
+        @media only screen and (max-width: 628px) {
+            .service{
+                display: block;
+                padding-left: 0px;
+            }
+            .contact ul a{
+                padding-left: 0px;
+            }
+ 
+        }
+    

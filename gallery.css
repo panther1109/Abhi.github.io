@@ -1,0 +1,49 @@
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    position: relative;
+    background-color: rgb(214, 214, 214);
+    max-width: 100%;
+    }
+    nav ul a{
+        text-decoration: none;
+        font-family: 'Cookie', cursive;
+        font-size: 2rem;
+        color:black;
+    }
+    .title{
+        font-family: 'Cookie', cursive;
+        font-size: 3rem;
+        text-align: center;
+        margin: 16px;
+    }
+    .image img{
+        display: grid;
+        height: 200px;
+        max-width: 100%;
+        align-items: center;
+        justify-items: center;
+        padding: 5px;
+        border: 2px solid black;
+    }
+    .photo
+       {display: grid;
+        grid-template-columns: repeat(3, auto);
+        align-content: space-around;
+        justify-content: center;
+        grid-gap: 2rem;
+    }
+    @media only screen and (max-width: 890px) {
+        .photo{
+            grid-template-columns: repeat(auto-fill, minmax(186px, 1fr));
+        }
+    }
+    @media only screen and (max-width: 364px) {
+        nav ul a{
+            font-size: 1.7rem;
+            
+        }
+    }
+

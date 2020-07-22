@@ -1,0 +1,51 @@
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 0px;
+    position: relative;
+    background-color: rgb(214, 214, 214);
+    }
+    nav ul a{
+        text-decoration: none;
+        font-family: 'Cookie', cursive;
+        font-size: 2rem;
+        color:black;
+    }
+    .title{
+        font-family: 'Cookie', cursive;
+        font-size: 3rem;
+        margin: 16px;
+        
+    }
+    .pro{
+        font-family: 'Kaushan Script', cursive;
+        opacity: 0.8;}
+
+    .name{
+        font-family: 'Kaushan Script', cursive;
+        font-size: 2rem;
+    }
+    .name a{
+        color: black;
+        margin: 16px;
+        text-decoration: none;
+    }
+    .cert{
+        text-align: center;
+    }
+    .note{
+        color: red;
+        font-family: 'Kaushan Script', cursive;
+    }
+    .cert ul{
+        padding-left: 0px;
+    }
+    @media only screen and (max-width: 364px) {
+        nav ul a{
+            font-size: 1.7rem;
+            
+            }
+        }
